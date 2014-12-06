@@ -1,7 +1,7 @@
 foo: foo.c
 	gcc foo.c -o foo
 
-210.I: 210.c
+210.i: 210.c
 	gcc -E 210.c > 210.i
 
 210.s: 210.i
