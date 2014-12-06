@@ -2,10 +2,10 @@ foo: foo.c
 	gcc foo.c -o foo
 
 210.I: 210.c
-	gcc -I 210.c > 210.I
+	gcc -E 210.c > 210.i
 
-210.s: 210.I
-	gcc -S 210.I
+210.s: 210.i
+	gcc -S 210.i
 
 210.o: 210.s
 	gcc -c 210.s
