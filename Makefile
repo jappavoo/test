@@ -1,5 +1,5 @@
 210: 210.o
-	gcc -m32 -O2 -o 210 210.o
+	gcc -Wl,-Bstatic -m32 -O2 -o 210 210.o
 
 210.i: 210.c
 	gcc -m32 -O2 -E 210.c > 210.i
