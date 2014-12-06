@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
-
+#include <sting.h>
 
 int main(int argc, char **argv)
 {
